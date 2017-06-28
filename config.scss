@@ -1,0 +1,11 @@
+$range-colors-helpers-parser: (
+    thumb-border-color: null,
+    focus-thumb-border-color: null,
+    thumb-background: null,
+    focus-thumb-background: null,
+    track-background: null,
+    focus-track-background: color
+) !default;
+
+$ranges-colors-support-extra-colors-palette: () !default;
+$ranges-colors-support-skip-colors-palette: null !default;

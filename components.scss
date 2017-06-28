@@ -1,0 +1,6 @@
+@each $palette-color-prefix, $palette-color-variables in get-colors-palette($ranges-colors-support-extra-colors-palette, $ranges-colors-support-skip-colors-palette) {
+    .#{$colors-class-prefix}-#{$palette-color-prefix} input[type="range"],
+    input[type="range"].#{$colors-class-prefix}-#{$palette-color-prefix} {
+        @include include-range-colors(parse-map($range-colors-helpers-parser, $palette-color-variables));
+    }
+}
