@@ -1,10 +1,19 @@
 $range-colors-helpers-parser: (
+    outline-color: null,
+    border-color: null,
+    background-color: null,
+    focus-outline-color: null,
+    focus-border-color: null,
     thumb-border-color: null,
+    thumb-background-color: null,
     focus-thumb-border-color: null,
-    thumb-background: null,
-    focus-thumb-background: null,
-    track-background: null,
-    focus-track-background: color
+    focus-thumb-background-color: null,
+    disabled-thumb-border-color: null,
+    disabled-thumb-background-color: null,
+    track-border-color: null,
+    track-background-color: null,
+    focus-track-background-color: color,
+    disabled-track-background-color: null
 ) !default;
 
 $ranges-colors-support-extra-colors-palette: () !default;
